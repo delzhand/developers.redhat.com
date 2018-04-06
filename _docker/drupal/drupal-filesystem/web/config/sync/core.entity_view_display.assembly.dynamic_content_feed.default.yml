@@ -10,7 +10,7 @@ dependencies:
     - field.field.assembly.dynamic_content_feed.field_number_of_posts
   module:
     - fences
-    - link
+    - rhd_assemblies
 id: assembly.dynamic_content_feed.default
 targetEntityType: assembly
 bundle: dynamic_content_feed
@@ -20,11 +20,12 @@ content:
     weight: 1
     label: hidden
     settings:
-      trim_length: 80
+      trim_length: '80'
+      class: 'button medium-cta blue'
       url_only: false
       url_plain: false
-      rel: '0'
-      target: '0'
+      rel: 0
+      target: 0
     third_party_settings:
       fences:
         fences_field_tag: div
@@ -33,7 +34,7 @@ content:
         fences_field_item_classes: ''
         fences_label_tag: none
         fences_label_classes: ''
-    type: link
+    type: link_class
     region: content
   name:
     type: string

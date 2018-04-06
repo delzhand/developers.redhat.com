@@ -44,7 +44,6 @@ settings:
       on_page_navigation: on_page_navigation
       featured_resources: featured_resources
       rich_text: rich_text
-      static_content_band: static_content_band
       videos: videos
     sort:
       field: _none
